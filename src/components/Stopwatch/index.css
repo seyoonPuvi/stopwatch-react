@@ -1,0 +1,88 @@
+/* Write CSS here */
+:root {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: roboto;
+  margin: 0;
+}
+
+.app-cont {
+  height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  background-position: right;
+  background-size: contain; /* Change here */
+  background-repeat: no-repeat; /* Add this */
+  padding: 8rem 44rem;
+}
+
+.title {
+  color: orangered;
+  font-size: 6rem;
+  margin-left: 2rem;
+
+  font-weight: bold;
+}
+
+.main-cont {
+  width: min-content;
+  padding: 5rem 4rem;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+.logo-cont {
+  display: flex;
+  column-gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -2rem;
+}
+.logo-cont img {
+  height: 2rem;
+  width: 2rem;
+  object-fit: cover;
+  object-position: center;
+}
+.logo-text {
+  font-size: 2rem;
+  color: black;
+  font-weight: bold;
+}
+
+.time {
+  font-size: 5rem;
+  color: rgb(38, 4, 71);
+  font-weight: bold;
+}
+
+.btn-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 3rem;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-start {
+  background-color: green;
+}
+
+.btn-stop {
+  background-color: red;
+}
+
+.btn-reset {
+  background-color: rgb(149, 149, 47);
+}
